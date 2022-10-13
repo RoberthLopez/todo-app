@@ -1,0 +1,60 @@
+.TodoItem {
+    background-color: #008080;
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+  }
+
+  .TodoItem:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+  }
+  
+  .TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .TodoItem__complete {
+    opacity: 0.5;
+  }
+  .TodoItem__complete:hover {
+    transform: scale(1);
+  }
+  
+  .Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Icon-check {
+    position: absolute;
+    left: 12px;
+  }
+ 
+  .Icon-delete {
+    position: absolute;
+    right: 10px;
+  }
+
+  @media (min-width:767px){
+    .TodoItem{
+      display: flex;
+      justify-items: center;
+      margin: 0 auto;
+      width: 700px;
+    }
+  }
