@@ -6,4 +6,5 @@ This app was my project for a Platzi React Course
 3. Css
 ## Libraries
 I only used a library for this project.
+
 **react-icons:** Icons library for react that contains plenty options.
